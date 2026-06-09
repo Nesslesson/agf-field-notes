@@ -54,7 +54,8 @@ interface designers might build next.
 - `interface-theses/` — theses on governance UX, adaptive workspaces, data
   egress review, memory control, and agent plan review.
 - `examples/` — short concrete scenarios (purpose drift, data egress).
-- `checklists/` — a practical agentic governance review checklist.
+- `checklists/` — a practical agentic governance review checklist, plus an
+  Ethics / Responsible Governance review surface.
 
 ## External-safe boundary
 
