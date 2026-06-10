@@ -100,6 +100,10 @@ mechanisms. The boundary note in `NOTICE.md` applies here. Everything in this
 folder is intended to be readable by external providers, researchers, and
 reviewers.
 
+## License
+
+Unless otherwise noted, the original prose notes, field maps, checklists, and examples in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
 ## Feedback
 
 Feedback and corrections are welcome — especially where these notes overstate,
