@@ -19,6 +19,7 @@ AGF does not claim to be a finished system. It is an early map of problem classe
 
 - Start with the core field map: [`field-maps/agf_field_map_purpose_drift_v0_1.md`](field-maps/agf_field_map_purpose_drift_v0_1.md)
 - Compare the boundary against CaMeL / FIDES / MVAR: [`field-maps/camel_fides_mvar_boundary_map_v0_1.md`](field-maps/camel_fides_mvar_boundary_map_v0_1.md)
+- See how purpose drift relates to scope creep, goal misgeneralization, instruction hierarchies, and principal–agent framing: [`field-maps/agf_adjacent_concepts_and_scope_boundary_v0_1.md`](field-maps/agf_adjacent_concepts_and_scope_boundary_v0_1.md)
 - Browse provider-facing opportunities: [`provider-opportunities/agf_provider_opportunity_map_v0_1.md`](provider-opportunities/agf_provider_opportunity_map_v0_1.md)
 - Read the interface theses: [`interface-theses/ai_interface_governance_theses_v0_1.md`](interface-theses/ai_interface_governance_theses_v0_1.md)
 - Read the adaptive workspace note: [`interface-theses/adaptive_ai_workspace_ui_v0_1.md`](interface-theses/adaptive_ai_workspace_ui_v0_1.md)
@@ -27,6 +28,14 @@ AGF does not claim to be a finished system. It is an early map of problem classe
 ## Why this matters
 
 Most AI interfaces still look like chat boxes, even when the systems behind them can call tools, move data, use memory, and affect workflows. If AI systems become more agentic, governance should become visible in the product surface: what the agent is trying to do, what data it may move, which tools it wants to use, when human review is needed, and why a step should be stopped or allowed.
+
+## Working terms
+
+- **Purpose / authority conformance** — whether an agent's continuation still matches the purpose the user actually authorized, even when data, tools, and permissions remain formally valid.
+- **Data-flow / egress boundaries** — where data may move, and making any crossing (especially internal → external) visible before it happens.
+- **Memory / RAG trust separation** — remembered or retrieved content may inform a task, but must not act as permission.
+
+The Ethics / Responsible Governance Layer asks review questions; it does not authorize action.
 
 ## What this repository is
 
@@ -70,13 +79,16 @@ Most AI interfaces still look like chat boxes, even when the systems behind them
 [`field-maps/agf_field_map_purpose_drift_v0_1.md`](field-maps/agf_field_map_purpose_drift_v0_1.md)
 — the core field map on purpose drift.
 
-- `field-maps/` — maps of where deterministic agent security stops and how AGF's
-  residual hypothesis relates to existing systems (CaMeL, FIDES, MVAR).
+- `field-maps/` — maps of where deterministic agent security stops, how AGF's
+  residual hypothesis relates to existing systems (CaMeL, FIDES, MVAR), and how
+  purpose drift relates to adjacent public concepts.
 - `provider-opportunities/` — provider-facing idea map across ten opportunity
   areas.
 - `interface-theses/` — theses on governance UX, adaptive workspaces, data
   egress review, memory control, and agent plan review.
-- `examples/` — short concrete scenarios (purpose drift, data egress).
+- `examples/` — short concrete scenarios: purpose drift in invoice
+  reconciliation, an email/calendar assistant, and a research assistant, plus a
+  data-egress case.
 - `checklists/` — a practical agentic governance review checklist, plus an
   Ethics / Responsible Governance review surface.
 
