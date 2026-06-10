@@ -5,6 +5,29 @@ and interface theses around agentic AI governance. It is a place to think out
 loud about where today's agent-security guarantees stop and what providers and
 interface designers might build next.
 
+## In one minute
+
+AGF (Agent Governance Framework) is a public field-notes project about one question:
+
+> If an AI agent can use tools, move data, read memory, and act across workflows, how do we keep its actions aligned with the purpose the user actually authorized?
+
+These notes explore agentic AI governance beyond plain chat: purpose/authority conformance, data-flow and egress boundaries, memory/RAG trust separation, visible governance UX, adaptive workspace interfaces, and responsible governance review.
+
+AGF does not claim to be a finished system. It is an early map of problem classes, provider opportunities, and interface theses for critique.
+
+## Quick navigation
+
+- Start with the core field map: [`field-maps/agf_field_map_purpose_drift_v0_1.md`](field-maps/agf_field_map_purpose_drift_v0_1.md)
+- Compare the boundary against CaMeL / FIDES / MVAR: [`field-maps/camel_fides_mvar_boundary_map_v0_1.md`](field-maps/camel_fides_mvar_boundary_map_v0_1.md)
+- Browse provider-facing opportunities: [`provider-opportunities/agf_provider_opportunity_map_v0_1.md`](provider-opportunities/agf_provider_opportunity_map_v0_1.md)
+- Read the interface theses: [`interface-theses/ai_interface_governance_theses_v0_1.md`](interface-theses/ai_interface_governance_theses_v0_1.md)
+- Read the adaptive workspace note: [`interface-theses/adaptive_ai_workspace_ui_v0_1.md`](interface-theses/adaptive_ai_workspace_ui_v0_1.md)
+- Read the ethics questions: [`checklists/ethics_responsible_governance_questions_v0_1.md`](checklists/ethics_responsible_governance_questions_v0_1.md)
+
+## Why this matters
+
+Most AI interfaces still look like chat boxes, even when the systems behind them can call tools, move data, use memory, and affect workflows. If AI systems become more agentic, governance should become visible in the product surface: what the agent is trying to do, what data it may move, which tools it wants to use, when human review is needed, and why a step should be stopped or allowed.
+
 ## What this repository is
 
 - Early-stage public field notes — work in progress, version `v0.1`.
