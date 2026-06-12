@@ -13,7 +13,7 @@ AGF (Agent Governance Framework) is a public field-notes project about one quest
 
 These notes explore agentic AI governance beyond plain chat: purpose/authority conformance, data-flow and egress boundaries, memory/RAG trust separation, visible governance UX, adaptive workspace interfaces, and responsible governance review.
 
-AGF does not claim to be a finished system. It is an early map of problem classes, provider opportunities, and interface theses for critique.
+AGF does not claim to be a finished system. It is an early map of problem classes, provider opportunities, and interface theses for critique. (The "Framework" in the name is aspirational — nothing here claims framework status yet.)
 
 ## Quick navigation
 
@@ -45,9 +45,8 @@ The Ethics / Responsible Governance Layer asks review questions; it does not aut
   and tool/runtime boundaries.
 - A set of interface and UX theses about making governance visible in AI
   products.
-- A competence and field-literacy signal: notes that try to map the problem
-  space honestly, including the parts that are already well covered by existing
-  research.
+- An attempt to map the problem space honestly, including the parts that are
+  already well covered by existing research.
 
 ## What this repository is not
 
@@ -75,17 +74,14 @@ The Ethics / Responsible Governance Layer asks review questions; it does not aut
 
 ## Current notes
 
-**Start here:**
-[`field-maps/agf_field_map_purpose_drift_v0_1.md`](field-maps/agf_field_map_purpose_drift_v0_1.md)
-— the core field map on purpose drift.
-
 - `field-maps/` — maps of where deterministic agent security stops, how AGF's
   residual hypothesis relates to existing systems (CaMeL, FIDES, MVAR), and how
   purpose drift relates to adjacent public concepts.
 - `provider-opportunities/` — provider-facing idea map across ten opportunity
   areas.
 - `interface-theses/` — theses on governance UX, adaptive workspaces, data
-  egress review, memory control, and agent plan review.
+  egress review, memory control, and agent plan review, with wireframe sketches
+  for the egress and plan-review surfaces.
 - `examples/` — short concrete scenarios: purpose drift in invoice
   reconciliation, an email/calendar assistant, and a research assistant, plus a
   data-egress case.
@@ -109,3 +105,7 @@ Unless otherwise noted, the original prose notes, field maps, checklists, and ex
 Feedback and corrections are welcome — especially where these notes overstate,
 misattribute, or duplicate existing research. The goal is an honest map, not a
 pitch. If something here is wrong or already solved elsewhere, please say so.
+
+The simplest door: **open a GitHub issue** on this repository — for critique,
+counterexamples, corrections, or pointers to prior work. No formality needed;
+one-line issues are welcome.
