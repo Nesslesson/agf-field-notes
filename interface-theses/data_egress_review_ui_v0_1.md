@@ -43,6 +43,12 @@ The point is that the user sees **source → destination → purpose → risk** 
 can redact, approve, or cancel *before* the data is gone — not discover it in a
 log afterward. (See `examples/document_summary_data_egress_v0_1.md`.)
 
+## Wireframe sketch
+
+![Wireframe of a data egress review card showing source, data class, destination, purpose, an internal-to-external boundary indicator, an elevated risk badge, a human-approval requirement, and reviewer options: summarize locally, redact and send less, cancel, approve send](assets/egress_review_card_v0_1.svg)
+
+*An illustrative sketch of the field list above — not a product interface.*
+
 ---
 
 *v0.1.*

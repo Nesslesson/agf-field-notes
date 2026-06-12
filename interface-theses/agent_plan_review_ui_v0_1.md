@@ -38,6 +38,12 @@ can **stop**, **continue**, or **revise** before money moves. This is the
 purpose-drift case made reviewable. (See
 `examples/invoice_reconciliation_purpose_drift_v0_1.md`.)
 
+## Wireframe sketch
+
+![Wireframe of an agent plan review timeline: steps one to three (read invoices, summarize totals, identify discrepancies) marked within purpose or adjacent, a dashed purpose-boundary line, then step four (issue corrective payments) flagged outside original purpose with stop, revise plan, and approve-and-continue options](assets/plan_review_timeline_v0_1.svg)
+
+*An illustrative sketch of the review fields above — not a product interface.*
+
 ---
 
 *v0.1.*
