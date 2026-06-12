@@ -96,6 +96,16 @@ mechanisms. The boundary note in `NOTICE.md` applies here. Everything in this
 folder is intended to be readable by external providers, researchers, and
 reviewers.
 
+## How these notes were made
+
+These notes were written in dialogue with AI assistants — used as tools, the
+way one uses any powerful tool: directed, reviewed, and bounded. The questions,
+the judgments, the boundaries, and the mistakes are mine.
+
+Writing about agentic AI governance while using AI assistants under explicit
+boundaries is not a contradiction; it is the practice these notes describe.
+Saying so plainly seemed more honest than leaving it unsaid.
+
 ## License
 
 Unless otherwise noted, the original prose notes, field maps, checklists, and examples in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
