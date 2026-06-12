@@ -36,6 +36,12 @@ visible and adjustable: inform tone / inform context / influence recommendations
 toggles, with authorization off by default, expiry available, and deletion or
 downgrade always possible.
 
+## Wireframe sketch
+
+![Wireframe of a memory control panel for a single stored memory, showing what was remembered, when and why it was stored, separate influence toggles for tone, project context, recommendations, and tool decisions, an authorize-actions toggle locked to default no, an expiry indicator, and downgrade and delete options](assets/memory_control_panel_v0_1.svg)
+
+*An illustrative sketch of the questions above — not a product interface.*
+
 ---
 
 *v0.1.*

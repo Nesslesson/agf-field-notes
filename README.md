@@ -81,7 +81,7 @@ The Ethics / Responsible Governance Layer asks review questions; it does not aut
   areas.
 - `interface-theses/` — theses on governance UX, adaptive workspaces, data
   egress review, memory control, and agent plan review, with wireframe sketches
-  for the egress and plan-review surfaces.
+  for the egress, plan-review, and memory-control surfaces.
 - `examples/` — short concrete scenarios: purpose drift in invoice
   reconciliation, an email/calendar assistant, and a research assistant, plus a
   data-egress case.
