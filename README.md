@@ -18,6 +18,7 @@ AGF does not claim to be a finished system. It is an early map of problem classe
 ## Quick navigation
 
 - Start with the core field map: [`field-maps/agf_field_map_purpose_drift_v0_1.md`](field-maps/agf_field_map_purpose_drift_v0_1.md)
+- Read the Context Authority thesis — governing how context becomes authority, not only moderating output: [`field-maps/agf_context_authority_thesis_v0_1.md`](field-maps/agf_context_authority_thesis_v0_1.md)
 - Compare the boundary against CaMeL / FIDES / MVAR: [`field-maps/camel_fides_mvar_boundary_map_v0_1.md`](field-maps/camel_fides_mvar_boundary_map_v0_1.md)
 - See how purpose drift relates to scope creep, goal misgeneralization, instruction hierarchies, and principal–agent framing: [`field-maps/agf_adjacent_concepts_and_scope_boundary_v0_1.md`](field-maps/agf_adjacent_concepts_and_scope_boundary_v0_1.md)
 - Browse provider-facing opportunities: [`provider-opportunities/agf_provider_opportunity_map_v0_1.md`](provider-opportunities/agf_provider_opportunity_map_v0_1.md)
@@ -75,8 +76,9 @@ The Ethics / Responsible Governance Layer asks review questions; it does not aut
 ## Current notes
 
 - `field-maps/` — maps of where deterministic agent security stops, how AGF's
-  residual hypothesis relates to existing systems (CaMeL, FIDES, MVAR), and how
-  purpose drift relates to adjacent public concepts.
+  residual hypothesis relates to existing systems (CaMeL, FIDES, MVAR), how
+  purpose drift relates to adjacent public concepts, and a thesis on governing
+  context authority (how context becomes authority, not only model output).
 - `provider-opportunities/` — provider-facing idea map across ten opportunity
   areas.
 - `interface-theses/` — theses on governance UX, adaptive workspaces, data
